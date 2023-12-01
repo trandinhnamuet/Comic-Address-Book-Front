@@ -1,0 +1,9 @@
+.user-card {
+    padding-top: 10px;
+    display: flex;
+}
+
+h5 {
+    padding-top: 40px;
+    padding-left: 10px;
+}
