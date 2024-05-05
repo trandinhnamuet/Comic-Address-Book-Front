@@ -1,0 +1,12 @@
+<!-- Trong profile.component.html -->
+<div *ngIf="account" class="profile-container">
+    <h2>Thông Tin Tài Khoản</h2>
+    <p>Tên: {{ account.showName }}</p>
+    <p>Tài Khoản: {{ account.accountName }}</p>
+    <p>Loại Tài Khoản: {{ account.accountType }}</p>
+    <!-- Thêm các trường khác tùy theo dữ liệu account của bạn -->
+
+    <!-- Nút Đổi Mật Khẩu -->
+    <br><br>
+    <button class="change-password-button">Đổi Mật Khẩu</button>
+</div>

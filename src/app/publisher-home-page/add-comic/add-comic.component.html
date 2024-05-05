@@ -1,0 +1,34 @@
+<div>
+    <mat-form-field>
+      <input matInput [(ngModel)]="comicName" placeholder="Tên truyện" required>
+    </mat-form-field><br>
+  
+    <mat-form-field>
+      <input matInput [(ngModel)]="comicLink" placeholder="Link truyện" required>
+    </mat-form-field><br>
+  
+    <mat-form-field>
+      <input matInput [(ngModel)]="translator" placeholder="Nhóm dịch" required>
+    </mat-form-field><br>
+  
+    <mat-form-field>
+      <input matInput [(ngModel)]="author" placeholder="Tác giả" required>
+    </mat-form-field><br>
+  
+    <mat-form-field>
+      <input matInput [(ngModel)]="alternativeName" placeholder="Tên khác">
+    </mat-form-field><br>
+
+    <mat-form-field>
+      <input matInput [(ngModel)]="description" placeholder="Mô tả nội dung truyện">
+    </mat-form-field><br>
+
+    <mat-form-field>
+      <input matInput [(ngModel)]="avatarLink" placeholder="Link avatar truyện. Nếu để trống sẽ tự lấy Avatar truyện từ link truyện bên trên.">
+    </mat-form-field><br>
+  
+    <div class="my-button">
+        <button mat-button (click)="addComic()">Thêm Truyện</button>
+    </div>
+</div>
+  

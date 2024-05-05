@@ -1,0 +1,39 @@
+/* CSS */
+.profile-container {
+    text-align: center; /* Căn giữa nội dung */
+    margin: 50px auto; /* Canh giữa đối với chiều rộng tối đa */
+    padding: 20px;
+    border: 2px solid #ccc; /* Viền đường kẻ */
+    border-radius: 10px; /* Đường cong viền */
+    width: 60%; /* Chiều rộng cố định */
+    background-color: #f9f9f9; /* Màu nền */
+  }
+  
+  .profile-container h2 {
+    color: #333; /* Màu chữ cho tiêu đề */
+  }
+  
+  .profile-container p {
+    margin: 10px 0; /* Khoảng cách giữa các dòng */
+    font-size: 16px; /* Kích thước chữ */
+  }
+  
+  .profile-container p:first-child {
+    margin-top: 0; /* Không có khoảng cách trên cùng cho phần tử đầu tiên */
+  }
+  /* CSS */
+.change-password-button {
+    background-color: #4CAF50; /* Màu nền */
+    color: white; /* Màu chữ */
+    padding: 12px 20px; /* Kích thước padding */
+    border: none; /* Không có đường viền */
+    border-radius: 5px; /* Đường cong viền */
+    cursor: pointer; /* Con trỏ chuột thành bàn tay khi di chuột qua */
+    font-size: 16px; /* Kích thước chữ */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi màu nền */
+  }
+  
+  .change-password-button:hover {
+    background-color: #45a049; /* Màu nền khi di chuột qua */
+  }
+  

@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="box" *ngFor="let tag of comicTags">
+        <span class="box">
+            <a href="{{tag.comicLink}}" class="root-page"><img src="{{tag.avatarLink}}" alt="Không load được ảnh"></a>
+            <a href="{{tag.comicLink}}" class="root-page"><h3 >{{tag.comicName}}</h3></a>
+            <a href="{{tag.chapter.chapLink}}" class="new-chap-tag">{{tag.chapter.chapName}}</a>
+        </span>
+    </div>
+</div>
+

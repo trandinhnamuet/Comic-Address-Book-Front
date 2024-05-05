@@ -1,0 +1,32 @@
+<button mat-button [mat-dialog-close]="true">Đóng</button>
+
+<h3>Đăng nhập</h3>
+
+<div class="row">
+    <mat-form-field>
+        <mat-label>Tên đăng nhập</mat-label>
+        <input matInput [(ngModel)]="username">
+        <mat-icon matSuffix>account_circle</mat-icon>
+    </mat-form-field>
+</div>
+<div class="row">
+    <mat-form-field>
+        <mat-label>Mật khẩu</mat-label>
+        <input matInput type="password" [(ngModel)]="password">
+        <mat-icon matSuffix>password</mat-icon>
+    </mat-form-field>
+</div>
+<div class="alert" *ngIf="wrongPassword"><p>Sai tài khoản hoặc mật khẩu</p></div>
+<div class="row">
+    <button (click)="login()">Đăng nhập</button>
+</div>
+<!-- 
+<div>
+    <p>{{username}}</p>
+    <p>{{password}}</p>
+</div>
+
+<tr *ngFor="let row of table">
+    <td>{{row.Column1}}</td>
+    <td>{{row.Column2}}</td>
+</tr> -->

@@ -1,0 +1,142 @@
+welcome to this tutorial on exporting
+
+YouTube playlist video titles and URLs
+
+to text or CSV using JavaScript code and
+
+the browser console in this tutorial
+
+we'll guide you through the step-by-step
+
+process let's Dive In
+
+first open your preferred web browser
+
+and navigate to the YouTube playlist
+
+page from which you want to export the
+
+video titles and urls for example let's
+
+use any random popular YouTube music
+
+playlist We need to visit the playlist
+
+page where all the videos are located by
+
+clicking in the playlist name then to
+
+proceed we need to open the browser
+
+console you can do this by simply
+
+pressing the F12 key on your keyboard
+
+once the console is open you'll be able
+
+to paste the provided JavaScript code
+
+Snippets in the console paste the first
+
+code snippet labeled as code snippet1
+
+this code will initiate an automated
+
+scrolling action that will help us
+
+gather all the necessary data from the
+
+playlist page you can find the code
+
+snippet1 in the video description
+
+after pasting the code the page will
+
+start scrolling automatically you need
+
+to wait until the scrolling reaches the
+
+bottom of the page this scrolling action
+
+ensures that we collect all the video
+
+titles and URLs from the YouTube
+
+playlist once the scrolling stops you
+
+can proceed to paste the second code
+
+snippet labeled as code snippet2 this
+
+code will extract the video titles and
+
+URLs and display them in the console you
+
+can find the code snippet 2 in the video
+
+description
+
+once you've pasted the second code
+
+snippet the console will display the
+
+video titles and URLs in the desired
+
+format you can now choose to copy this
+
+data and paste it into a spreadsheet for
+
+further analysis or any other use if you
+
+prefer to export the data as a CSV file
+
+we have an optional step for you by
+
+following this step you can download the
+
+data in CSV format to proceed with the
+
+optional step copy the provided code
+
+snippet labeled as code snippet 3. you
+
+can find the code snippet 3 in the video
+
+description by pasting the code snippet
+
+a CSV file named my underscore data.csv
+
+will be automatically downloaded this
+
+file will contain the video titles and
+
+URLs in a format suitable for
+
+spreadsheet applications
+
+congratulations you've successfully
+
+exported the video titles and URLs from
+
+the YouTube playlist you can directly
+
+open the CSV file in Excel or any other
+
+similar software if you have any
+
+problems or need more help feel free to
+
+leave a comment I will be happy to help
+
+you you can copy and paste all the codes
+
+from the link in the video description
+
+thank you for watching and happy data
+
+exploration don't forget to subscribe if
+
+you don't want to miss other cool codes
+
+for your browser console
+

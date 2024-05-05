@@ -1,0 +1,15 @@
+mat-form-field {
+    min-width: 1000px;
+    padding-left: 200px;
+}
+
+.my-button {
+    padding-left: 570px;
+}
+
+.my-button button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+
+}

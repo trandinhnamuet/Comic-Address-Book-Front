@@ -1,0 +1,35 @@
+<div class="my-header">
+    <a href=""><img src="favicon.ico" alt="MySite" class="site-logo"></a>
+    
+    <app-search-box class="my-search-box"></app-search-box>
+
+    <button *ngIf="!loggedIn" id="loginButton" class="login-button" mat-button (click)="openLoginDialog()">Đăng Nhập</button>
+    <button *ngIf="!loggedIn" id="registerButton" class="signup-button" mat-button (click)="openRegisterDialog()">Đăng Ký</button>
+    <button *ngIf="loggedIn" id="signoutButton" class="signout-button" mat-button (click)="signout()">Đăng xuất</button>
+
+    <!-- <div class="navbar">
+        <a href="#" class="logo">NetTruyen</a>
+        <div class="search-container">
+          <input type="text" placeholder="Tìm truyện...">
+          <button type="submit">🔍</button>
+        </div>
+        <a href="#" class="login-button">Đăng nhập</a>
+        <a href="#" class="signup-button">Đăng ký</a>
+      </div> -->
+
+    <!-- dropdown-menu.component.html -->
+    <!-- <img src="{{avatarLink}}" alt=""> -->
+    <button *ngIf="loggedIn" class="dropdown" onclick="toggleDropdown()" class="dropbtn dropdown">{{userName}}
+            <img src="" alt="">
+            <span id="myDropdown" class="dropdown-content">
+                <a href="/publisher">Thông tin tài khoản</a>
+                <a href="/publisher/add-comic">Đăng truyện</a>
+                <a href="/admin">Admin</a>
+                <a (click)="signout()" href="/admin">Đăng xuất</a>
+            </span>
+    </button>
+    
+    
+</div>
+
+<div class="pad"></div>

@@ -1,0 +1,23 @@
+/* * {
+  background-color: #252525;
+  background-image: url('/assets/images/header-bg4.webp');
+} */
+
+.home-page {
+  /* background-image: url('/assets/images/header-bg4.png'); */
+  height: 2000px;
+}
+
+:host {
+    background-color: rgb(97, 88, 88); /* Tên màu */
+    background-color: #252525;
+  }
+  
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.comic-tag {
+  background-color: violet;
+}

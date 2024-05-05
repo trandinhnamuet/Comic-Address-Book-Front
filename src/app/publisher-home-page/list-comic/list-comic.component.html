@@ -1,0 +1,47 @@
+<!-- <div class="container mt-5">
+  <table class="table table-bordered table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th>Bìa truyện</th>
+        <th>Tên Truyện</th>
+        <th>Tác Giả</th>
+        <th>Chap mới nhất</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let comic of comics">
+        <td>{{comic.avatarLink}}</td>
+        <td>{{comic.comicName}}</td>
+        <td>{{comic.author}}</td>
+        <td>{{comic.chapter.chapName}}</td>
+        <td><button class="btn-delete" (click)="deleteComic(comic.comicID)">Xóa truyện</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div> -->
+
+<div class="container mt-5">
+  <table class="table table-bordered table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th>Bìa truyện</th>
+        <th>Tên Truyện</th>
+        <th>Tác Giả</th>
+        <th>Chap mới nhất</th>
+        <!-- Thêm tiêu đề cột "Hành động" để chứa các nút -->
+        <th>Hành Động</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let comic of comics">*
+        <td>{{comic.avatarLink}}</td>
+        <td>{{ comic.comicName }}</td>
+        <td>{{ comic.author }}</td>
+        <td>{{comic.latestChapID}}</td>
+        <!-- Thêm cột có nút "Xóa truyện" -->
+        <td><button class="btn-delete" (click)="deleteComic(comic.comicID)">Xóa truyện</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

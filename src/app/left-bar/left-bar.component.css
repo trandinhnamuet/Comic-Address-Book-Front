@@ -1,0 +1,15 @@
+* {
+    /* background-color: red; */
+    background-color: #333;
+    text-align: center;
+}
+
+.left-bar {
+    /* background-image: url('/assets/images/header-bg4.webp'); */
+    height: 100%;
+}
+
+.ae {
+    overflow: hidden;
+    height: 400px;
+}

@@ -1,0 +1,50 @@
+* {
+    /* height: 2000px; */
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.box {
+    width: calc(20% - 20px); /* Đảm bảo mỗi ô chiếm 25% chiều rộng và cách nhau 20px */
+    background-color: lightblue; /* Màu nền của ô vuông */
+    /* background-color: rgba(0,0,0,0); */
+    margin: 10px;
+}
+
+.root-page {
+    text-decoration: none;
+}
+.root-page:hover {
+    text-decoration: underline;
+}
+
+.box img {
+    width: 100%; /* Chiều rộng hình ảnh bằng 100% chiều rộng của thẻ .box */
+    height: 340px; /* Chiều cao tự động điều chỉnh theo tỷ lệ của hình ảnh */
+    position: relative;
+    left: -10px;
+}
+
+
+img {
+    width: 200px;
+    height: 300px;
+}   
+
+h3 {
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.new-chap-tag {
+    text-decoration: none;
+}
+
+.new-chap-tag:hover {
+    text-decoration: underline;
+}

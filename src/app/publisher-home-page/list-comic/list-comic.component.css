@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+    vertical-align: middle; /* Căn giữa nội dung theo chiều dọc */
+}
+
+/* Định nghĩa nút "Xóa truyện" màu đỏ */
+.btn-delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: darkred;
+}

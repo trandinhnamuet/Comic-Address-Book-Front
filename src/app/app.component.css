@@ -1,0 +1,23 @@
+/* styles.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+  /* app-header, app-footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  app-left-bar, app-right-bar, app-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 100%;
+  }
+   */
+
+* {
+    background-image: url('/assets/images/header-bg4.webp');
+}

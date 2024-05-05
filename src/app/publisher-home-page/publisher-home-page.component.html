@@ -1,0 +1,30 @@
+<!-- <p>publisher-home-page works!</p>
+<app-header></app-header> -->
+
+
+<!-- <div class="container-fluid row">
+    <header class="row bg-primary"><app-header></app-header></header>
+    <aside class="col-2 bg-info"><app-panel></app-panel></aside>
+    <article class="col-10 bg-success">
+        <header class="row bg-primary"><app-publisher-header></app-publisher-header></header>
+        <section class="row bg-secondary"><router-outlet></router-outlet></section>
+    </article>
+</div> -->
+
+<app-header></app-header>
+
+<div fxLayout="row" fxLayoutAlign="start stretch">
+
+  <div fxFlex="15">
+    <app-panel></app-panel>
+  </div>
+
+  <div fxFlex="85">
+    <!-- <app-publisher-header></app-publisher-header> -->
+    <br><br>
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
+<br><br><br><br><br><br><br>
+<app-footer></app-footer>
