@@ -1,1 +1,7 @@
 <app-header></app-header>
+<div class="navigation">
+  <button (click)="showComponent('account')">Quản Lý Tài Khoản</button>
+  <button (click)="showComponent('comic')">Quản Lý Truyện</button>
+</div>
+<app-account-management *ngIf="currentComponent === 'account'"></app-account-management>
+<app-comic-management *ngIf="currentComponent === 'comic'"></app-comic-management>

@@ -1,0 +1,14 @@
+/* Căn giữa nội dung trong .navigation */
+.navigation {
+    display: flex;
+    justify-content: center; /* Căn ngang */
+    align-items: center; /* Căn dọc nếu cần */
+  }
+  
+  /* Tạo một không gian đều giữa các nút */
+  .navigation button {
+    margin: 0 10px; /* Thêm khoảng cách giữa các nút */
+    margin-top: 20px;
+    padding: 10px;
+  }
+  

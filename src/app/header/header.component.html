@@ -23,8 +23,8 @@
             <img src="" alt="">
             <span id="myDropdown" class="dropdown-content">
                 <a href="/publisher">Thông tin tài khoản</a>
-                <a href="/publisher/add-comic">Đăng truyện</a>
-                <a href="/admin">Admin</a>
+                <a *ngIf="accountType === 'publisher'" href="/publisher/add-comic">Đăng truyện</a>
+                <a *ngIf="accountType === 'admin'" href="/admin">Admin</a>
                 <a (click)="signout()" href="/admin">Đăng xuất</a>
             </span>
     </button>

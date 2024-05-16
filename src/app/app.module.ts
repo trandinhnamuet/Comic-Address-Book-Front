@@ -32,6 +32,8 @@ import { HttpClientModule } from '@angular/common/http'
 import { ReactiveFormsModule } from '@angular/forms';
 import { LatestChapsComponent } from './home-page/latest-chaps/latest-chaps.component';
 import { SearchBoxComponent } from './header/search-box/search-box.component';
+import { AccountManagementComponent } from './admin-page/account-management/account-management.component';
+import { ComicManagementComponent } from './admin-page/comic-management/comic-management.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,7 +53,9 @@ import { SearchBoxComponent } from './header/search-box/search-box.component';
     ProfileComponent,
     PublisherHeaderComponent,
     LatestChapsComponent,
-    SearchBoxComponent
+    SearchBoxComponent,
+    AccountManagementComponent,
+    ComicManagementComponent
   ],
   imports: [
     BrowserModule,

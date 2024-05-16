@@ -1,0 +1,76 @@
+    /* CSS hiện có */
+    .admin-table-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        width: 80%;
+    }
+    
+    th, td {
+        border: 2px solid white;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    /* Thêm CSS mới */
+
+    button {
+        margin-right: 10px;
+    }
+    
+    button.edit-button {
+        background-color: yellow; /* Màu nền cho nút */
+        color: black; /* Màu chữ */
+        padding: 10px 20px; /* Đệm cho nút */
+        border: none; /* Loại bỏ viền của nút */
+        cursor: pointer; /* Thay đổi con trỏ chuột khi di chuyển vào nút */
+        transition: background-color 0.3s; /* Hiệu ứng mờ dần khi thay đổi màu nền */
+    }
+    
+    button.edit-button:hover {
+        background-color: orange; /* Thay đổi màu nút khi hover */
+    }
+
+    button.delete-button {
+        background-color: red; /* Màu nền cho nút */
+        color: white; /* Màu chữ */
+        padding: 10px 20px; /* Đệm cho nút */
+        border: none; /* Loại bỏ viền của nút */
+        cursor: pointer; /* Thay đổi con trỏ chuột khi di chuyển vào nút */
+        transition: background-color 0.3s; /* Hiệu ứng mờ dần khi thay đổi màu nền */
+    }
+
+    button.delete-button:hover {
+        background-color: darkred; /* Thay đổi màu nút khi hover */
+    }
+
+    button.add-button {
+        background-color: green; /* Màu nền cho nút */
+        color: white; /* Màu chữ */
+        padding: 10px 20px; /* Đệm cho nút */
+        border: none; /* Loại bỏ viền của nút */
+        cursor: pointer; /* Thay đổi con trỏ chuột khi di chuyển vào nút */
+        transition: background-color 0.3s; /* Hiệu ứng mờ dần khi thay đổi màu nền */
+    }
+
+    button.add-button:hover {
+        background-color: darkgreen; /* Thay đổi màu nút khi hover */
+    }
+
+    .add-button-container {
+        text-align: center; /* Căn trái nút */
+        margin-bottom: -40px; /* Khoảng cách giữa nút và bảng */
+        margin-top: 40px;
+        margin-left: -1370px;
+    }

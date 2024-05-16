@@ -1,0 +1,34 @@
+<!-- src/app/comic-management/comic-management.component.html -->
+<div class="add-button-container">
+    <button class="add-button">Thêm link truyện</button> <!-- Nút mới thêm -->
+</div>
+<div class="comic-table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Tên truyện</th>
+          <th>Dịch giả</th>
+          <th>Tác giả</th>
+          <th>Mô tả</th>
+          <th>Avatar</th>
+          <th>Thao tác</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let comic of comics">
+          <td>{{ comic.comicID }}</td>
+          <td>{{ comic.comicName }}</td>
+          <td>{{ comic.translator }}</td>
+          <td>{{ comic.author }}</td>
+          <td>{{ comic.description }}</td>
+          <td><img [src]="comic.avatarLink" alt="Avatar" width="50"></td>
+          <td>
+            <button class="edit-button">Sửa thông tin</button>
+            <button class="delete-button">Xóa truyện</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

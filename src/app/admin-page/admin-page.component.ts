@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./admin-page.component.css']
 })
 export class AdminPageComponent {
+  currentComponent: string = 'account'; // Set giá trị mặc định là 'account'
 
+  constructor() { }
+
+  showComponent(component: string) {
+    this.currentComponent = component;
+  }
 }

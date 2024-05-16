@@ -1,0 +1,71 @@
+/* src/app/comic-management/comic-management.component.css */
+
+.comic-table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    margin-top: 180px;
+}
+
+th, td {
+    border: 2px solid white;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button {
+    margin-right: 10px;
+}
+
+button.edit-button,
+button.delete-button,
+button.add-button {
+    color: white; /* Màu chữ cho tất cả nút */
+    padding: 10px 20px; /* Đệm cho nút */
+    border: none; /* Loại bỏ viền của nút */
+    cursor: pointer; /* Thay đổi con trỏ chuột khi di chuyển vào nút */
+    transition: background-color 0.3s; /* Hiệu ứng mờ dần khi thay đổi màu nền */
+}
+
+button.edit-button {
+    background-color: yellow;
+}
+
+button.edit-button:hover {
+    background-color: orange;
+}
+
+button.delete-button {
+    background-color: red;
+}
+
+button.delete-button:hover {
+    background-color: darkred;
+}
+
+button.add-button {
+    background-color: green;
+}
+
+button.add-button:hover {
+    background-color: darkgreen;
+}
+
+.add-button-container {
+    text-align: center; /* Căn trái nút */
+    margin-bottom: -150px; /* Khoảng cách giữa nút và bảng */
+    margin-top: 40px;
+    margin-left: -1370px;
+}

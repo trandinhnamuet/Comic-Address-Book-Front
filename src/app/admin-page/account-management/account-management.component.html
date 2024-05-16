@@ -1,0 +1,30 @@
+<div class="add-button-container">
+    <button class="add-button">Thêm tài khoản</button> <!-- Nút mới thêm -->
+</div>
+<div class="admin-table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên tài khoản</th>
+                <th>Loại tài khoản</th>
+                <th>Tên hiển thị</th>
+                <th>Avatar</th>
+                <th>Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let account of accounts">
+                <td>{{ account.accountID }}</td>
+                <td>{{ account.accountName }}</td>
+                <td>{{ account.accountType }}</td>
+                <td>{{ account.showName }}</td>
+                <td><img [src]="account.accountAvatarLink" alt="Avatar" width="50"></td>
+                <td>
+                    <button class="edit-button">Sửa thông tin</button>
+                    <button class="delete-button">Xóa tài khoản</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
